@@ -223,7 +223,7 @@ app.get("/buku/:id_buku", (req, res) => {
 })
 
 
-// end-point menyimpan data siswa
+// end-point menyimpan data buku
 app.post("/buku", (req, res) => {
 
     // prepare data
@@ -253,7 +253,7 @@ app.post("/buku", (req, res) => {
 })
 
 
-// end-point mengubah data siswa
+// end-point mengubah data buku
 app.put("/buku/:id_buku", (req, res) => {
 
     // prepare data
@@ -291,7 +291,7 @@ app.put("/buku/:id_buku", (req, res) => {
 })
 
 
-// end-point menghapus data siswa berdasarkan id_siswa
+// end-point menghapus data buku berdasarkan id_buku
 app.delete("/buku/:id_buku", (req, res) => {
     // prepare data
     let data = {
